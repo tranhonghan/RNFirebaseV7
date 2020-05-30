@@ -1,0 +1,4 @@
+#Fri May 22 13:40:41 ICT 2020
+base.0=/Users/apple/Documents/Firebase V7 doc/RNFirebaseV7/android/app/build/intermediates/dex/debug/mergeDexDebug/out/classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

@@ -1,0 +1,6 @@
+module Pods_RNFirebaseV7 {
+  umbrella header "Pods-RNFirebaseV7-umbrella.h"
+
+  export *
+  module * { export * }
+}
