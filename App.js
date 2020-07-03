@@ -18,7 +18,9 @@ export default function App() {
       console.log("[App] onNotification: ", notify)
       const options = {
         soundName: 'default',
-        playSound: true
+        playSound: true //,
+        // largeIcon: 'ic_launcher', // add icon large for Android (Link: app/src/main/mipmap)
+        // smallIcon: 'ic_launcher' // add icon small for Android (Link: app/src/main/mipmap)
       }
       localNotificationService.showNotification(
         0,
