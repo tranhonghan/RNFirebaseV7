@@ -63,7 +63,6 @@ class FCMService {
     createNotificationListeners = (onRegister, onNotification, onOpenNotification) => {
     
         // When the application is running, but in the background
-        this.notifyOpenAppListenner =
         messaging()
         .onNotificationOpenedApp(remoteMessage => {
             console.log('[FCMService] onNotificationOpenedApp Notification caused app to open from background state:',remoteMessage)
@@ -75,7 +74,6 @@ class FCMService {
         });
 
          // When the application is opened from a quit state.
-        this.initialNotifyListenner = 
         messaging()
         .getInitialNotification()
         .then(remoteMessage => {
@@ -112,9 +110,6 @@ class FCMService {
 
     unRegister = () => {
         this.messageListener()
-        this.notifyOpenAppListenner()
-        this.initialNotifyListenner()
-
     }
 }
 
